@@ -1,21 +1,35 @@
-## Github Workflow
+# 📰 News Project – Full Stack  - Main branch
 
- - Repo Setup : 
- 1. main
- 2. news_front-end  
- 3. news_back-end
+## 📌 GitHub Workflow  
 
- The code will be pushed to the concerned branched until completion, when completed the merge proceducre will be as followed: 
-  When frontend/backend code is stable and ready to “ship”:
+This project is organized into **two long-lived branches** to keep development clean and professional:  
 
-On GitHub → open Pull Request:
+- [🖥️ Frontend Branch](https://github.com/RaffayMa/News/tree/front-end/news-app)  
+- [⚙️ Backend Branch](https://github.com/RaffayMa/News/tree/back-end/news_app)  
 
-frontend → main (for frontend changes)
+---
 
-backend → main (for backend changes)
+### 🔹 Repository Structure  
+1. **`main`** – polished, production-ready code (final integrated project).  
+2. **`news_front-end`** – active development of the frontend (UI & client-side logic).  
+3. **`news_back-end`** – active development of the backend (API, automation, ETL).  
 
-Review changes → Merge.
+---
 
-Update local main.
+### 🔹 Development & Merge Process  
 
-main stays clean as the combined “final product”.
+All code is pushed to the **frontend** or **backend** branch during development.  
+Once the code is stable and ready to “ship”:  
+
+1. Open a **Pull Request** on GitHub:  
+   - `news_front-end` → `main` (frontend changes)  
+   - `news_back-end` → `main` (backend changes)  
+
+2. **Review & Test** the changes.  
+
+3. **Merge into `main`** → keeping `main` clean as the combined **final product**.  
+
+4. **Update Local Main**:  
+   ```bash
+   git checkout main
+   git pull origin main
