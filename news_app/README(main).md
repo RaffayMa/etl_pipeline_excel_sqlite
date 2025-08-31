@@ -33,3 +33,29 @@ Once the code is stable and ready to “ship”:
    ```bash
    git checkout main
    git pull origin main
+
+## 📽️ Project Goal
+
+Build a news website, that fetches articles, headlines in a nutshell news from newsAPI.org
+
+### Tech Stack 
+
+**⚙️ Back-end**
+Python, for API integration, organizes data and exposes it via REST API
+**🔹 Steps**
+1. Set up Flask API
+2. Add error handling
+3. Structure code for clarity
+4. Test endpints
+5. return JSON
+
+
+**🖥️ Front-end**
+Vanilla HTML,CSS & JS OR UI library like React, will fetch data from the backend and display in UI.
+HTML, CSS & JS learning resource by Professor Jamie Mitchell at Trent university :
+https://jamiemitchell.dev/cois2430/content/
+
+1. Create app and build pages accordingly
+2. fetch JSON from back-end
+3. Style with Bootstrap or other resources
+
