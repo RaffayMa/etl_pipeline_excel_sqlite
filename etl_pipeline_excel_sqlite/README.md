@@ -5,6 +5,8 @@
 ### STEP 2
  Check the data set for missing values, dataset for shape & duplicates
 
+ Shape examination : 
+
 ### STEP 3 
  Transform the dataset, drip the duplicates, fill the missing values, fix any date formates, Standardize the datsets, 
 
